@@ -11,22 +11,21 @@ import com.google.firebase.analytics.ktx.logEvent
 import com.google.firebase.ktx.Firebase
 import com.plcoding.testingcourse.R
 
-class BadProfileViewModel(
-    private val app: Application
+class GoodProfileViewModel(
+    private val analytics: AnalyticsLogger
 ) : ViewModel() {
 
-    private val analytics = Firebase.analytics
-
-    var state by mutableStateOf(BadProfileState())
+    var state by mutableStateOf(GoodProfileState())
         private set
 
     fun saveProfile() {
-        analytics.logEvent("save_profile") {
-            param("profile_id", state.profileId)
-            param("username", state.username)
-        }
+        analytics.logEvent(
+            "save_profile",
+            LogParam("profile_id", state.profileId),
+            LogParam("username", state.username),
+        )
         state = state.copy(
-            infoMessage = app.getString(R.string.successfully_saved_profile)
+            infoMessage = UiText.StringResource(R.string.successfully_saved_profile)
         )
     }
 }
