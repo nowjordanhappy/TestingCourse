@@ -1,0 +1,27 @@
+
+á
+Wapp/src/test/java/com/plcoding/testingcourse/part7/presentation/ProfileViewModelTest.kt,d/2/d2ded57bd6e0c2f4192b187786594ba171e268bf
+{
+Kapp/src/test/java/com/plcoding/testingcourse/util/MainCoroutineExtension.kt,f/5/f5ef7b50586373065a2a5b2ed2128cba955111b3
+
+Oapp/src/main/java/com/plcoding/testingcourse/part8/domain/ScheduledVideoCall.kt,3/2/323aa26c79b8caad38340b0bae470e6a677e75fa
+Ñ
+Tapp/src/main/java/com/plcoding/testingcourse/part8/domain/VideoCallExpirationFlow.kt,2/0/209d98ff9ef3b2b93b50e71b170345676607b991
+w
+Gapp/src/test/java/com/plcoding/testingcourse/util/TestDataGenerators.kt,d/1/d134f8b601d410e2f97d88321f6dff81c435cd8c
+v
+Fapp/src/test/java/com/plcoding/testingcourse/util/LocalDateTimeUtil.kt,e/0/e0f72ab6dd4842e78fe7f036314a4fca79606067
+q
+Aapp/src/test/java/com/plcoding/testingcourse/util/MutableClock.kt,0/3/039cca149681112ef2c4d310d94ed98f2109a7e4
+à
+Xapp/src/test/java/com/plcoding/testingcourse/part8/domain/VideoCallExpirationFlowTest.kt,c/4/c4d83bd8f08a20fa75975ac41a536aec471a87bb
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+Å
+Qapp/src/main/java/com/plcoding/testingcourse/part11/presentation/ProfileScreen.kt,f/4/f4d88ccaadf09dc70254ef801cc74463e1220077
+l
+<app/src/main/java/com/plcoding/testingcourse/MainActivity.kt,a/2/a238e13df7555e828fb65abd2941cb36e02163eb
+å
+\app/src/androidTest/java/com/plcoding/testingcourse/part11/presentation/ProfileScreenTest.kt,6/d/6d45debef774fd7e906363f0af98bd0eca949ec4
