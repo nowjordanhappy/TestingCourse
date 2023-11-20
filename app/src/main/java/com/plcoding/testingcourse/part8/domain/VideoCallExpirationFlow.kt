@@ -26,7 +26,7 @@ class VideoCallExpirationFlow(
         tickerFlow()
             .flowOn(Dispatchers.Main)
             .map {
-                calls.filter { it.isExpired(clock) }
+                calls.filter { !it.isExpired(clock) }
             }
             .distinctUntilChanged()
             .collect(collector)
