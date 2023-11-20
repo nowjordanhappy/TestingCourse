@@ -60,6 +60,7 @@ class MainActivity : ComponentActivity() {
 
                         if(hasPermission) {
                             // Start recording...
+                            println("has all permissions")
                         } else {
                             permissionLauncher.launch(android.Manifest.permission.RECORD_AUDIO)
                         }
